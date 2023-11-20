@@ -143,10 +143,16 @@ export default function Header({ headerCls, headerTop }) {
                                         </div>
                                         <div className="logo d-none">
                                             <Link href="/">
-                                                <img
-                                                    src="/assets/img/logo/logo_02.png"
-                                                    alt="Logo"
-                                                />
+                                                <div className="flex items-center gap-2">
+                                                    <LiaHammerSolid size={35} color="#000" />
+                                                    <p
+                                                        className="text-3xl text-slate-800 font-extrabold"
+                                                        style={{
+                                                            fontFamily: `'Russo One', sans-serif`,
+                                                        }}>
+                                                        C&P Roofing
+                                                    </p>
+                                                </div>
                                             </Link>
                                         </div>
                                         <div className="navbar-wrap main-menu d-none d-lg-flex">
