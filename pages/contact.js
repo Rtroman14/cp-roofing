@@ -121,8 +121,8 @@ export default function Contact() {
                                                     <i className="fas fa-envelope" />
                                                 </div>
                                                 <div className="content">
-                                                    <Link href="mailto:chris@peakleads.io">
-                                                        chris@peakleads.io
+                                                    <Link href="mailto:chris@cproofingflorida.co">
+                                                        chris@cproofingflorida.co
                                                     </Link>
                                                 </div>
                                             </div>
